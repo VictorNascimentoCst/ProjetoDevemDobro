@@ -12,7 +12,7 @@ personagens.forEach((personagem) => {
     personagem.addEventListener('mouseenter', () => {
 
         const idSelecionado = personagem.attributes.id.value;
-        if (idSelecionado === 'ultron') return;
+        if (idSelecionado === 'renjii-abarai') return;
         
         const personagemSelecionado = document.querySelector('.selecionado')
         personagemSelecionado.classList.remove('selecionado')
